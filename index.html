@@ -14,25 +14,25 @@
 	<div class="container">
 		<form action="" method="" class="form">
 			<div class="form">
-				<label for="key">Enter key: </label>
+				<label for="key">Enter Player Name & Hole #: </label>
 				<input type="text" name="key" id="key" required>
 			</div>
 			<div class="form">
-				<label for="value">Enter value: </label>
+				<label for="value">Enter Score: </label>
 				<input type="text" name="value" id="value" required>
 			</div>
 			<div class="form">
-				<button class="button" id="btn-create" type="button">Create</button>
+				<button class="button" id="btn-create" type="button">Add</button>
 				<button class="button" id="btn-update" type="button">Update</button>
 				<button class="button" id="btn-delete" type="button">Delete</button>
 			</div>
 			<!-- clear button? -->
 		</form>	
-		<table>
-			<thead>
+		<table class="">
+			<thead> Score by Hole
 				<tr>
-					<th>Key</th>
-					<th>Value</th>
+					<th>Player: Hole#</th>
+					<th>Score</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -42,7 +42,52 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	
+		<table class="">
+			<thead> Stroke Play
+				<tr>
+					<th>Player: Hole#</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>test key</td>
+					<td>test value</td>
+				</tr>
+			</tbody>
+		</table>
+
+	<table>
+			<thead>Match Play
+				<tr>
+					<th>Player: Hole#</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>test key</td>
+					<td>test value</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table>
+			<thead>Skins
+				<tr>
+					<th>Player: Hole#</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>test key</td>
+					<td>test value</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
 	<div id="statusLabel">Status:</div>
 
 	<script src="app/app.js"></script>

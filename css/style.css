@@ -13,6 +13,9 @@ state changing styling
 	FLEXBOX CONTAINER
 	guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
+body {
+	background-color: green;
+}
 .container {
 	display: flex;
 }
@@ -27,7 +30,15 @@ table {
 
 table,
 td {
+
     border: 1px solid #333;
+}
+td {
+	text-align: center;
+}
+
+#text {
+	display: flex;
 }
 
 thead,
@@ -41,12 +52,15 @@ tfoot {
 	TODO: validation checking styling 
 */
 form.form {
+	/*display: inline-block;*/
 }
 
 div.form {
+	
 }
 
 label, input {
+	display: flex;
     margin-bottom: 10px;
     width: 125px;
 }

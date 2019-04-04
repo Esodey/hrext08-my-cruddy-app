@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>HREXT08 R00lz!</title>
 	<script
-		src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-		crossorigin="anonymous"></script>
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -14,7 +14,11 @@
 	<div class="container">
 		<form action="" method="" class="form">
 			<div class="form">
-				<label for="key">Enter Player Name & Hole #: </label>
+				<label for="key">Enter Player Name: </label>
+				<input type="text" name="key" id="key" required>
+			</div>
+			<div class="form">
+				<label for="key">Enter Hole Number: </label>
 				<input type="text" name="key" id="key" required>
 			</div>
 			<div class="form">
@@ -28,37 +32,66 @@
 			</div>
 			<!-- clear button? -->
 		</form>	
-		<table class="">
-			<thead> Score by Hole
-				<tr>
-					<th>Player: Hole#</th>
-					<th>Score</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>test key</td>
-					<td>test value</td>
-				</tr>
-			</tbody>
-		</table>
-	
-		<table class="">
-			<thead> Stroke Play
-				<tr>
-					<th>Player: Hole#</th>
-					<th>Score</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>test key</td>
-					<td>test value</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="table-container">
+			Score by Hole
+			<table id="score">
+				<thead> 
+					<tr>
+						<th>Hole #</th>
+						<th>Player 1</th>
+						<th>Player 2</th>
+						<th>Player 3</th>
+						<th>Player 4</th>
+					</tr>
+						<tr><th>Hole 1</th></tr>
+						<tr><th>Hole 2</th></tr>
+						<tr><th>Hole 3</th></tr>
+						<tr><th>Hole 4</th></tr>
+						<tr><th>Hole 5</th></tr>
+						<tr><th>Hole 6</th></tr>
+						<tr><th>Hole 7</th></tr>
+						<tr><th>Hole 8</th></tr>
+						<tr><th>Hole 9</th></tr>
+						<tr><th>Hole 10</th></tr>
+						<tr><th>Hole 11</th></tr>
+						<tr><th>Hole 12</th></tr>
+						<tr><th>Hole 13</th></tr>
+						<tr><th>Hole 14</th></tr>
+						<tr><th>Hole 15</th></tr>
+						<tr><th>Hole 16</th></tr>
+						<tr><th>Hole 17</th></tr>
+						<tr><th>Hole 18</th></tr>
+						
 
-	<table>
+			
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>test key</td>
+						<td>test value</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="table-container">
+			<table id="stroke-play">
+				<thead> Stroke Play
+					<tr>
+						<th>Player: Hole#</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>test key</td>
+						<td>test value</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<!-- 	<table id="match-play">
 			<thead>Match Play
 				<tr>
 					<th>Player: Hole#</th>
@@ -73,7 +106,7 @@
 			</tbody>
 		</table>
 
-		<table>
+		<table id="skins">
 			<thead>Skins
 				<tr>
 					<th>Player: Hole#</th>
@@ -86,7 +119,7 @@
 					<td>test value</td>
 				</tr>
 			</tbody>
-		</table>
+		</table> -->
 		</div>
 	<div id="statusLabel">Status:</div>
 

@@ -28,12 +28,19 @@ table {
 	margin-left: 30px;
 }
 
+.table-container {
+	text-align: center;
+	font-weight: bold;
+
+}
+
 table,
 td {
 
     border: 1px solid #333;
 }
 td {
+	border: 1px solid #333;
 	text-align: center;
 }
 
@@ -45,6 +52,9 @@ thead,
 tfoot {
     background-color: #333;
     color: #fff;
+}
+th {
+	border: 1px solid #333;
 }
 
 /*

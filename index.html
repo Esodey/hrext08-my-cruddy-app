@@ -14,18 +14,30 @@
 	<div class="container">
 		<form action="" method="" class="form">
 			<div class="form">
-				<label for="key">Enter Player Name: </label>
-				<input type="text" name="key" id="key" required>
+				<label for="player-1">Player 1 Score: </label>
+				<input type="text" name="player-1" id="player-1" required>
 			</div>
 			<div class="form">
-				<label for="key">Enter Hole Number: </label>
-				<input type="text" name="key" id="key" required>
+				<label for="player-2">Player 2 Score: </label>
+				<input type="text" name="player-2" id="player-2" required>
 			</div>
 			<div class="form">
+				<label for="player-3">Player 3 Score: </label>
+				<input type="text" name="player-3" id="player-3" required>
+			</div>
+			<div class="form">
+				<label for="player-4">Player 4 Score: </label>
+				<input type="text" name="player-4" id="player-4" required>
+			</div>
+			<div class="form">
+				<label for="hole">Enter Hole Number: </label>
+				<input type="text" name="hole" id="hole" required>
+			</div>
+<!-- 			<div class="form">
 				<label for="value">Enter Score: </label>
 				<input type="text" name="value" id="value" required>
 			</div>
-			<div class="form">
+ -->			<div class="form">
 				<button class="button" id="btn-create" type="button">Add</button>
 				<button class="button" id="btn-update" type="button">Update</button>
 				<button class="button" id="btn-delete" type="button">Delete</button>
@@ -37,40 +49,146 @@
 			<table id="score">
 				<thead> 
 					<tr>
-						<th>Hole #</th>
-						<th>Player 1</th>
-						<th>Player 2</th>
-						<th>Player 3</th>
-						<th>Player 4</th>
-					</tr>
-						<tr><th>Hole 1</th></tr>
-						<tr><th>Hole 2</th></tr>
-						<tr><th>Hole 3</th></tr>
-						<tr><th>Hole 4</th></tr>
-						<tr><th>Hole 5</th></tr>
-						<tr><th>Hole 6</th></tr>
-						<tr><th>Hole 7</th></tr>
-						<tr><th>Hole 8</th></tr>
-						<tr><th>Hole 9</th></tr>
-						<tr><th>Hole 10</th></tr>
-						<tr><th>Hole 11</th></tr>
-						<tr><th>Hole 12</th></tr>
-						<tr><th>Hole 13</th></tr>
-						<tr><th>Hole 14</th></tr>
-						<tr><th>Hole 15</th></tr>
-						<tr><th>Hole 16</th></tr>
-						<tr><th>Hole 17</th></tr>
-						<tr><th>Hole 18</th></tr>
-						
+					   <th></th>
+					   <th>Player 1</th>
+					   <th>Player 2</th>
+					   <th>Player 3</th>
+					   <th>Player 4</th>
+					 </tr>
+					 <tr>
+					   <th>Hole 1</td>
+					   <td id ="11"></td>
+					   <td id="12"></td>
+					   <td id="13"></td>
+					   <td id ="14"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 2</td>
+					   <td id="21"></td>
+					   <td id="22"></td>
+					   <td id="23"></td>
+					   <td id="24"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 3</td>
+					   <td id="31"></td>
+					   <td id="32"></td>
+					   <td id="33"></td>
+					   <td id="34"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 4</td>
+					   <td id="41"></td>
+					   <td id="42"></td>
+					   <td id="43"></td>
+					   <td id="44"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 5</td>
+					   <td id="51"></td>
+					   <td id="52"></td>
+					   <td id="53"></td>
+					   <td id="54"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 6</td>
+					   <td id="61"></td>
+					   <td id="62"></td>
+					   <td id="63"></td>
+					   <td id="64"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 7</td>
+					   <td id="71"></td>
+					   <td id="72"></td>
+					   <td id="73"></td>
+					   <td id="74"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 8</td>
+					   <td id="81"></td>
+					   <td id="82"></td>
+					   <td id="83"></td>
+					   <td id="84"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 9</td>
+					   <td id="91"></td>
+					   <td id="92"></td>
+					   <td id="93"></td>
+					   <td id="94"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 10</td>
+					   <td id="101"></td>
+					   <td id="102"></td>
+					   <td id="103"></td>
+					   <td id="104"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 11</td>
+					   <td id="111"></td>
+					   <td id="112"></td>
+					   <td id="113"></td>
+					   <td id="114"></td>
+					 </tr>
+					 <tr>
+					   <th>Hole 12</td>
+					   <td id="121"></td>
+					   <td id="122"></td>
+					   <td id="123"></td>
+					   <td id="124"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 13</td>
+					   <td id="131"></td>
+					   <td id="132"></td>
+					   <td id="133"></td>
+					   <td id="134"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 14</td>
+					   <td id="141"></td>
+					   <td id="142"></td>
+					   <td id="143"></td>
+					   <td id="144"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 15</td>
+					   <td id="151"></td>
+					   <td id="152"></td>
+					   <td id="153"></td>
+					   <td id="154"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 16</td>
+					   <td id="161"></td>
+					   <td id="162"></td>
+					   <td id="163"></td>
+					   <td id="164"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 17</td>
+					   <td id="171"></td>
+					   <td id="172"></td>
+					   <td id="173"></td>
+					   <td id="174"></td>
+					 </tr>
+					  <tr>
+					   <th>Hole 18</td>
+					   <td id="181"></td>
+					   <td id="182"></td>
+					   <td id="183"></td>
+					   <td id="184"></td>
+					 </tr>
 
-			
-					</tr>
+					</table>
 				</thead>
 				<tbody>
-					<tr>
+				<!-- 	<tr>
 						<td>test key</td>
 						<td>test value</td>
-					</tr>
+					</tr> -->
 				</tbody>
 			</table>
 		</div>
@@ -79,14 +197,26 @@
 			<table id="stroke-play">
 				<thead> Stroke Play
 					<tr>
-						<th>Player: Hole#</th>
-						<th>Score</th>
+						<th>Player #:</th>
+						<th>Total Score</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>test key</td>
-						<td>test value</td>
+					<tr id="row-1">
+						<td>1</td>
+						<td id="stroke-total-1"></td>
+					</tr>
+					<tr id="row-2">
+						<td>2</td>
+						<td id="stroke-total-2"></td>
+					</tr>
+					<tr id="row-3">
+						<td>3</td>
+						<td id="stroke-total-3"></td>
+					</tr>
+					<tr id="row-4">
+						<td>4</td>
+						<td id="stroke-total-4"></td>
 					</tr>
 				</tbody>
 			</table>
@@ -122,7 +252,7 @@
 		</table> -->
 		</div>
 	<div id="statusLabel">Status:</div>
-
+		<div id="gifsnpics"></div>
 	<script src="app/app.js"></script>
   <!--
    table to view data

@@ -85,3 +85,25 @@ label {
 button.button {
 	margin-right: 20px;
 }
+#gifsnpics {
+width: all;
+height: 300px;
+}
+
+.winning {
+	background: cyan;
+}
+
+.front-and-center {
+	position: fixed;
+	top: 35%;
+	left: 45%;
+}
+
+
+
+
+
+
+
+
